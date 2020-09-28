@@ -1,0 +1,260 @@
+body{
+	margin: 0;
+}
+.livingroom{
+	position: relative;
+	width: 100vw;
+  height: 100vh;
+  border: 2px solid black;
+	background-color: #E4DFDA;
+}
+
+.couch{
+	position: absolute;
+	left: 200px;
+	top: 330px;
+	width: 100px;
+	height: 300px;
+	border: 1px solid black;
+}
+.label-couch{
+	position: absolute;
+	top: calc(50% - 10px);
+	left: 25px;
+	color: black;
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+	transform: rotate(-90deg);
+}
+
+.table{
+	position: absolute;
+	top: 370px;
+	left: 350px;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	border: 1px dashed black;
+}
+
+.label-table{
+	position: absolute;
+	top: calc(50% - 10px);
+	left: calc(50% - 50px);
+	color: black;
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.shelf{
+	position: absolute;
+	top: 170px;
+	left: 550px;
+	width: 500px;
+	height: 60px;
+	border: 1px solid black;
+}
+
+.label-shelf{
+	position: absolute;
+	top: calc(50% - 10px);
+	left: calc(50% - 50px);
+	color: black;
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.tv{
+	position: absolute;
+	top: 370px;
+	right: 150px;
+	width: 30px;
+	height: 200px;
+	border: 1px solid black;
+}
+
+.label-tv{
+	position: absolute;
+	top: calc(50% - 10px);
+	right: 130px;
+	transform: rotate(-90deg);
+	color: black;
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.side-shelf1{
+	position: absolute;
+	top: 270px;
+	right: 130px;
+	width: 70px;
+	height: 70px;
+	border: 1px solid black;
+}
+
+.side-shelf2{
+	position: absolute;
+	top: 600px;
+	right: 130px;
+	width: 70px;
+	height: 70px;
+	border: 1px solid black;
+}
+
+.label-side-shelf{
+	position: absolute;
+	top: calc(50% - 10px);
+	right: 15px;
+	color: black;
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.kitchen{
+	position: absolute;
+	right: 0px;
+	width: 800px;
+	height: 100px;
+	background-color: #D4B483;
+}
+
+.bathroom{
+	position: absolute;
+	left: 0px;
+	width: 900px;
+	height: 100px;
+	background-color: #4281A4;
+}
+
+.bedroom{
+	position: absolute;
+	top: 100px;
+	width: 100px;
+	height: 750px;
+	background-color: #C1666B;
+}
+
+.outdoor{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 100px;
+	background-color: #3F6634;
+}
+
+.description-livingroom {
+  position: absolute;
+	top: 400px;
+	left: 640px;
+  color: black;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+	font-size: 75px;
+	color: #2b2b2b;
+}
+
+.description-kitchen {
+  position: absolute;
+	/* top: 5px; */
+	right: 250px;
+  color: black;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+	font-size: 75px;
+	color: #2b2b2b;
+}
+
+.description-bathroom {
+  position: absolute;
+	/* top: 5px; */
+	left: 250px;
+  color: black;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+	font-size: 75px;
+	color: #2b2b2b;
+}
+
+.description-bedroom {
+  position: absolute;
+	top: 400px;
+	right: 1500px;
+	padding-left: 0px;
+	transform: rotate(-90deg);
+  color: black;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+	font-size: 75px;
+	color: #2b2b2b;
+}
+
+.description-outdoor {
+  position: absolute;
+	bottom: 0px;
+	left: 600px;
+  color: black;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+	font-size: 75px;
+	color: #2b2b2b;
+}
+
+.kitchen-door1{
+	position: absolute;
+	bottom: 0px;
+	left: 100px;
+	width: 200px;
+	height: 10px;
+	background-color: black;
+}
+
+.bathroom-door{
+	position: absolute;
+	top: 22px;
+	right: 0px;
+	width: 10px;
+	height: 60px;
+	background-color: black;
+}
+
+.bedroom-door{
+	position: absolute;
+	top: 22px;
+	right: 0px;
+	width: 10px;
+	height: 150px;
+	background-color: black;
+}
+
+.outdoor-door{
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	width: 300px;
+	height: 10px;
+	background-color: black;
+}
+
+.bathroom:hover{
+  background-color: #69b4ff;
+  color: #000;
+  cursor: pointer;
+}
+
+.bedroom:hover{
+  background-color: #f1bfcc;
+  color: #000;
+  cursor: pointer;
+}
+
+.kitchen:hover{
+  background-color: #f6f5e3;
+  color: #000;
+  cursor: pointer;
+}
+
+.outdoor:hover{
+  background-color: #b2fbbb;
+  color: #000;
+  cursor: pointer;
+}
